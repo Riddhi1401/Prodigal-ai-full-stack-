@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import AIFullStackDashboard from './components/AIFullStackDashboard';
 import './App.css'
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <>
-     <h1 className="text-[50px]"> hello jay </h1>
+     <AIFullStackDashboard />
     </>
   )
 }
